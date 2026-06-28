@@ -2,15 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'PSD Agentforce Workshop',
-  description: 'Hands-on workshop: Prompt Builder & Agent Builder for the PSD Case Assistant',
+  title: 'NYC Agentforce Workshop',
+  description: 'Hands-on workshop: Prompt Builder & Agent Builder for Smart Youth Profile Maintenance',
 
   // Deploying to GitHub Pages at https://<user>.github.io/nyc-workshop/
   base: '/nyc-workshop/',
 
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'Start the Workshop', link: '/setup' },
     ],
 
@@ -30,8 +29,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Overview', link: '/prompt-builder/overview' },
-          { text: '1A: Create an Email Prompt', link: '/prompt-builder/email-prompt' },
-          { text: '1B: Field Generation Prompt', link: '/prompt-builder/field-generation' },
+          { text: '1.1 Smart Youth Profile', link: '/prompt-builder/field-generation' },
+          { text: '1.2 Youth Outreach Email', link: '/prompt-builder/email-prompt' },
         ],
       },
       {
@@ -39,8 +38,15 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Overview', link: '/agent-builder/overview' },
-          { text: '2A: New Agent with Default Topics', link: '/agent-builder/default-topics' },
-          { text: '2B: Enhance with Topics & Actions', link: '/agent-builder/topics-and-actions' },
+          { text: '2.1 Create a New Agent', link: '/agent-builder/default-topics' },
+          { text: '2.2 Youth Leader Nomination', link: '/agent-builder/topics-and-actions' },
+        ],
+      },
+      {
+        text: 'Exercise 3: Agentforce Coworker',
+        collapsed: false,
+        items: [
+          { text: '3.1 Agentforce Coworker', link: '/agent-builder/coworker' },
         ],
       },
       {

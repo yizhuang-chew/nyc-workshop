@@ -2,23 +2,20 @@
 layout: home
 
 hero:
-  name: "PSD Agentforce Workshop"
-  text: "Prompt Builder & Agent Builder"
-  tagline: Build a PSD Case Assistant that turns messy intake notes into structured, actionable service journeys.
+  name: "NYC Agentforce Workshop"
+  text: "Prompt Builder, Agents & Coworker"
+  tagline: Build a Smart Youth Profile assistant that turns fragmented engagement notes into living profiles — and nominates youth leaders for the right opportunities.
   actions:
     - theme: brand
       text: Start the Workshop
       link: /setup
-    - theme: alt
-      text: Exercise 1 — Prompt Builder
-      link: /prompt-builder/overview
 
 features:
   - title: "Exercise 1: Prompt Builder"
-    details: Ground Einstein in your Case records to draft empathetic follow-up emails and auto-generate a structured Case Profile.
+    details: Ground Einstein in your youth engagement records to enrich a Smart Youth Profile and draft personalized outreach automatically.
     link: /prompt-builder/overview
-  - title: "Exercise 2: Agent Builder"
-    details: Move beyond chat into capability — link your prompts as Actions and watch the reasoning engine decide when to act.
+  - title: "Exercise 2: Agents & Coworker"
+    details: Build an autonomous agent that looks up youths, assesses them against nomination criteria, and enriches their profile — then surface it to officers as an Agentforce Coworker.
     link: /agent-builder/overview
   - title: "Resources"
     details: Continue your Agentblazer journey with demos, docs, and Trailhead.
@@ -27,40 +24,26 @@ features:
 
 ## Introduction
 
-Welcome to the **PSD: Agentforce Prompt Builder and Agent Builder Hands-On Workshop**.
+Welcome to the **NYC Agentforce Workshop**.
 
-Our officers' greatest asset is their empathy and expertise. However, that value is
-often sidelined by the "Administrative Tax" — the hours spent on data entry, manual
-summarization, and drafting repetitive email. Today, we are building a **PSD Case
-Assistant** — a digital ally designed to transform raw, messy intake data into
-structured, actionable service journeys.
-
-### The Mission
-
-As a PSD Administrator, you are tackling the challenge of **"Intake Noise"**. Notes
-from citizen engagements are often long and unstructured, with details buried in
-pages of text.
-
-- **The Problem:** Every minute spent "translating" messy notes into a structured
-  case profile or a formal email is a minute *not* spent helping a citizen navigate a
-  crisis. When high-risk indicators (like financial distress or urgent medical needs)
-  are hidden in text, follow-up communication stalls and citizen trust can waver.
-- **The Solution:** You will build an internal assistant that automates the admin work:
-  - **Automate the "Deep Read":** Use **Prompt Builder** to instantly distill messy
-    notes into structured checklists (Field Generation).
-  - **Streamline Communication:** Use **Prompt Builder** to draft personalized,
-    professional follow-up emails that guide citizens through their next steps.
-  - **Execute with Autonomy:** Use **Agent Builder** to create an agent that reasons
-    through these tasks, allowing you to ask *"What is Mdm Tan's next step?"* in plain
-    English.
+At the National Youth Council (NYC), our greatest asset is our relationships with young
+people. But that value is often sidelined by the "Administrative Tax" — the hours spent
+piecing together fragmented engagement notes, updating profiles by hand, and routing
+manual write-ups for approval. Today, we are building a **Smart Youth Profile
+Assistant** — a digital ally that keeps every youth profile current and surfaces the
+right youth for the right opportunities.
 
 ### What You Will Achieve
 
-Today's exercises bridge the gap between **Intelligence** and **Action**:
+Across three hands-on exercises, you'll go from raw AI to a trusted digital coworker:
 
-1. **The Brain (Prompt Builder)** — Learn to *"Ground"* the AI. By anchoring Einstein
-   in your specific Salesforce Case records, you ensure the assistant speaks only from
-   facts, not hallucinations.
-2. **The Body (Agent Builder)** — Move beyond "Chat" and into *"Capability."* By
-   linking your prompts as **Actions**, you will see the **Reasoning Engine** in
-   action — deciding exactly when to summarize a file and when to draft an email.
+1. **The Building Blocks (Prompt Builder)** — Craft **reusable prompts** grounded in your
+   real youth records, so the AI speaks from facts, not guesses. Build them once and reuse
+   them everywhere — in records, in flows, and as agent actions.
+2. **The Doer (Agent Builder)** — Turn those prompts into an autonomous **agent that takes
+   action**. Watch the reasoning engine decide *on its own* when to look up a youth, assess
+   them against nomination criteria, and enrich their profile.
+3. **The Coworker (Agentforce Coworker)** — Put the agent to work as a **copilot** right
+   beside your team. Through **Agentforce Coworker**, officers simply ask in plain
+   language — *"Does Yi Zhuang qualify for nomination?"* — and get grounded answers inline,
+   no clicks through Setup required.
