@@ -14,9 +14,12 @@ features:
   - title: "Exercise 1: Prompt Builder"
     details: Ground Einstein in your youth engagement records to enrich a Smart Youth Profile and draft personalized outreach automatically.
     link: /prompt-builder/overview
-  - title: "Exercise 2: Agents & Coworker"
-    details: Build an autonomous agent that looks up youths, assesses them against nomination criteria, and enriches their profile — then surface it to officers as an Agentforce Coworker.
+  - title: "Exercise 2: Agent Builder"
+    details: Build an autonomous agent that looks up a youth, assesses them against nomination criteria, and enriches their profile.
     link: /agent-builder/overview
+  - title: "Exercise 3: Agentforce Coworker"
+    details: Surface your agent to officers as a copilot, right beside the search bar.
+    link: /agent-builder/coworker
   - title: "Resources"
     details: Continue your Agentblazer journey with demos, docs, and Trailhead.
     link: /resources
