@@ -243,6 +243,18 @@ Current Designation, Role History with dates, Engagement Summary, Interests, and
 & Review flag. Same grounded data, but **instructions** made it usable and repeatable.
 :::
 
+::: tip Make it your own — experiment!
+This prompt is just a starting point. Try changing it and re-previewing to see how the
+output shifts. For example:
+
+- Add a section, like **MENTORSHIP POTENTIAL** or **RISK OF DROP-OFF**.
+- Change the tone — ask for a punchy one-line **TL;DR** at the top.
+- Tighten the **NOMINATION ASSESSMENT** criteria to match your real rubric.
+- Ask it to rank the recommended programmes by fit.
+
+Tweak, preview, repeat — that's the whole craft of prompt engineering. 🎨
+:::
+
 ## 1.1.6 Level 4 — Add a Web Search Action
 
 Finally, we enrich the profile from the **web** — for example, public designation or role
