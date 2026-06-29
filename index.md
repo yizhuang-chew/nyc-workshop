@@ -35,15 +35,11 @@ right youth for the right opportunities.
 
 ### What You Will Achieve
 
-Across three hands-on exercises, you'll go from raw AI to a trusted digital coworker:
+By the end of this workshop, you will be able to:
 
-1. **The Building Blocks (Prompt Builder)** — Craft **reusable prompts** grounded in your
-   real youth records, so the AI speaks from facts, not guesses. Build them once and reuse
-   them everywhere — in records, in flows, and as agent actions.
-2. **The Doer (Agent Builder)** — Turn those prompts into an autonomous **agent that takes
-   action**. Watch the reasoning engine decide *on its own* when to look up a youth, assess
-   them against nomination criteria, and enrich their profile.
-3. **The Coworker (Agentforce Coworker)** — Put the agent to work as a **copilot** right
-   beside your team. Through **Agentforce Coworker**, officers simply ask in plain
-   language — *"Does Yi Zhuang qualify for nomination?"* — and get grounded answers inline,
-   no clicks through Setup required.
+1. **Write AI prompts** that enrich a youth's record into a **Smart Youth Profile** and
+   draft a personalized outreach email. *(Prompt Builder)*
+2. **Build an AI agent** that looks up a youth and assesses them against nomination
+   criteria on its own. *(Agent Builder)*
+3. **Use an AI copilot** beside the search bar to help with everyday tasks. *(Agentforce
+   Coworker)*
