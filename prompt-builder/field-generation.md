@@ -169,58 +169,65 @@ to shape it into a clean, consistent, structured profile.
    Cases** for the engagement records.
 
    ```text
-   Analyze the youth:
+   You are an engagement analyst at the National Youth Council (NYC). Produce a clear,
+   decision-ready Smart Youth Profile for this youth:
    {!$RecordSnapshot:Contact.snapshot}
 
    And their related engagement records:
    {!$RelatedList:Contact.Cases}
 
-   Generate a structured Smart Youth Profile using the following standardised headers.
+   Format the output as clearly labelled sections. For each, put the SECTION HEADER on its
+   own line in uppercase, then the SECTION BODY on the lines below it, then a blank line
+   before the next section.
 
-   CURRENT DESIGNATION: State the youth's most recent role/designation based on the
-   latest signal in the notes (e.g., General Volunteer, Project Crew, Team Lead).
+   CURRENT DESIGNATION
+   The youth's most recent role/designation based on the latest signal in the notes (e.g.
+   General Volunteer, Project Crew, Team Lead).
 
-   ROLE HISTORY: List each past and current role as a bulleted timeline with start and
-   end dates where available (use 'Ongoing' if no end date, 'Date not captured' if
-   missing).
+   ROLE HISTORY
+   Each past and current role as a bulleted timeline with start and end dates where
+   available (use 'Ongoing' if no end date, 'Date not captured' if missing).
 
-   ENGAGEMENT SUMMARY: Summarise recent engagement and contributions (events facilitated,
-   volunteers mentored, representation, attendance/impact).
+   ENGAGEMENT SUMMARY
+   Recent engagement and contributions (events facilitated, volunteers mentored,
+   representation, attendance/impact).
 
-   INTERESTS & ASPIRATIONS: Capture stated interests or opportunities the youth has
-   expressed interest in.
+   INTERESTS & ASPIRATIONS
+   Stated interests or opportunities the youth has expressed interest in.
 
-   TIER & REVIEW FLAG: State the current tier (T1/T2) and note any flag for promotion,
-   demotion, or nomination, with the reason.
+   TIER & REVIEW FLAG
+   The current tier (T1/T2) and any flag for promotion, demotion, or nomination, with the
+   reason.
 
-   NOMINATION ASSESSMENT: Assess the youth against the nomination criteria and state
-   whether they MEET or DO NOT MEET each one: (1) consistent engagement / attendance,
-   (2) leadership role history, (3) mentoring or facilitation impact, (4) expressed
-   interest in growth opportunities. Conclude with an overall recommendation: Promote
-   (T2 to T1), Hold, or Demote, with a one-line reason.
+   NOMINATION ASSESSMENT
+   Assess the youth against the nomination criteria and state whether they MEET or DO NOT
+   MEET each one: (1) consistent engagement / attendance, (2) leadership role history,
+   (3) mentoring or facilitation impact, (4) expressed interest in growth opportunities.
+   Conclude with an overall recommendation: Promote (T2 to T1), Hold, or Demote, with a
+   one-line reason.
 
-   WEB INSIGHTS: Summarise any relevant public information found in the web search results
-   — for example current role or job title, organisation, education, achievements, or
-   public profiles. If nothing relevant is found, state 'No public information found'.
+   WEB INSIGHTS
+   Any relevant public information found in the web search results — for example current
+   role, organisation, education, achievements, or public profiles. If nothing relevant is
+   found, state 'No public information found'.
 
-   RECORD UPDATE FLAG: Compare the web insights against the details on the youth's record
-   (such as their Account or designation). If anything differs or looks out of date, flag
-   it and recommend updating the record. If everything aligns or no web info is found,
-   state 'No update needed'.
+   RECORD UPDATE FLAG
+   Compare the web insights against the youth's record. If anything differs or looks out of
+   date, flag it and recommend updating the record. If everything aligns, state 'No update
+   needed'.
 
-   RECOMMENDED PROGRAMMES: Based on the youth's skills, aspirations, and web insights,
-   recommend 2-3 suitable NYC programmes or opportunities (e.g., leadership exchange,
-   facilitation training, mentorship tracks) and briefly explain why each fits.
+   RECOMMENDED PROGRAMMES
+   2-3 suitable NYC programmes or opportunities (e.g. leadership exchange, facilitation
+   training, mentorship tracks), each with a one-line reason.
 
-   ACTION ITEMS: List the outstanding next steps / follow-ups for the officer as a
-   bulleted checklist (e.g., confirm interest, update role dates, log facilitation hours,
-   route nomination for approval).
+   NEXT STEPS
+   A short bulleted checklist of follow-ups for the officer.
 
-   Constraint: If a specific header has no relevant information in the notes, state 'No
-   information provided' for that section.
-   Include a break line after each section.
-   Keep the entire response within 2200 characters including break lines and spaces.
-   Do not include sensitive personal identifiers in the generated summary.
+   Rules:
+   - Base every claim on the notes or the web results; do not invent facts.
+   - If a section has no relevant information, write 'No information provided'.
+   - Keep the whole response under 2500 characters.
+   - Do not include sensitive personal identifiers.
    ```
 
 2. Click **Save**.
@@ -246,8 +253,8 @@ signals about the youth — by adding a **web search action** to the prompt.
    results carefully. On a new line there, type:
 
    ```text
-   And their web presence:
-   WEB CONTEXT: Use the following web search results to corroborate or enrich the profile
+   WEB CONTEXT
+   Use the following web search results to corroborate, enrich, and fact-check the profile
    where relevant:
    ```
 
