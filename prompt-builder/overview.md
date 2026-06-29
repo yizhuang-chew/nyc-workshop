@@ -7,9 +7,9 @@ so the assistant speaks only from facts, not hallucinations.
 
 You will build two prompts:
 
-- **1.1 — Smart Youth Profile:** a Field Generation prompt that turns fragmented notes
+- **1.1 Smart Youth Profile:** a Field Generation prompt that turns fragmented notes
   (plus the web) into a structured **Smart Youth Profile**.
-- **1.2 — Youth Outreach Email:** a Service Email prompt that turns that profile into a
+- **1.2 Youth Outreach Email:** a Service Email prompt that turns that profile into a
   warm, personalized outreach email.
 
 ::: tip Prerequisites

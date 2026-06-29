@@ -12,12 +12,10 @@ for future engagements and nominations.
 We'll build the prompt up in **levels** so you can see how the output changes as we add
 more to it. After each level you'll **Preview** the prompt and observe the difference:
 
-1. **Level 1 — A Simple Instruction:** prove the prompt runs (but watch it guess).
-2. **Level 2 — Ground in the Youth:** connect real record data — now it's about *this*
-   person, from facts.
-3. **Level 3 — Add Structured Instructions:** shape the output into a clean, structured
-   profile.
-4. **Level 4 — Add a Web Search Action:** enrich the profile from the web.
+1. **Level 1 — A Simple Instruction:** see the prompt run (and guess).
+2. **Level 2 — Ground in the Youth:** add real record data.
+3. **Level 3 — Add Structured Instructions:** shape it into a clean profile.
+4. **Level 4 — Add a Web Search Action:** enrich it from the web.
 
 ::: tip How to read each level
 Each level shows you the **prompt to use** and then asks you to **Preview & Observe**.
