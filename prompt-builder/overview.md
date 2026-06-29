@@ -7,12 +7,10 @@ so the assistant speaks only from facts, not hallucinations.
 
 You will build two prompts:
 
-- **1.1 — Smart Youth Profile:** a Field Generation prompt that scans fragmented notes —
-  and enriches from the web via a **web search action** — to populate a structured
-  **Smart Youth Profile** field, capturing designation changes, role updates, and
-  start/end dates so the profile stays current and usable for future engagements.
-- **1.2 — Youth Outreach Email:** a Service Email prompt that turns the youth's enriched
-  profile notes into a warm, personalized outreach email.
+- **1.1 — Smart Youth Profile:** a Field Generation prompt that turns fragmented notes
+  (plus the web) into a structured **Smart Youth Profile**.
+- **1.2 — Youth Outreach Email:** a Service Email prompt that turns that profile into a
+  warm, personalized outreach email.
 
 ::: tip Prerequisites
 Complete **Exercise 0: Pre-Setup Checklist** first — you need the Yi Zhuang Chew Contact
